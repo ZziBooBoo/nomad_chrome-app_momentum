@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    position:absolute;
+    margin: 0;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+}
+
+.hidden{
+    display : none;
+}
+
+
+form{
+    border: none;
+    text-align: center;
+}
+input,button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+#clock{
+    font-size: 8rem;
+    color: white;
+    margin:0;
+    font-weight: 550;
+    position:relative;
+    bottom:40px;
+}
+#quote {
+    font-size:14px;
+    color: white;
+    position: absolute;
+    bottom:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 2px black;
+}
+#quote span:first-child{
+    font-weight: 950;
+}
+#login-form{
+    margin-bottom: 20px;
+    position:relative;
+    bottom:20px;
+}
+.inputname{
+    font-size: 30px;
+    width:300px;
+    color:white
+}
+.inputname::placeholder{
+    color:white
+}
+.inputname:focus {
+    outline: none;
+  }
+#login-form button{
+    font-size:24px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 35px;
+}
+#greeting{
+    font-size:36px;
+    position:relative;
+    bottom:40px;
+    margin:0;
+}
+
+#todo-form input{
+    width:300px;
+    color:white;
+    font-size:20px;
+}
+
+#todo-form input::placeholder{
+    color:white;
+    font-size:20px;
+}
+
+#todo-form input:focus {
+    outline: none;
+}
+#weatherImg{
+    position: absolute;
+    top: 18px;
+    right:140px;
+    width:25px;
+    height: 25px;
+    z-index:1;
+}
+#weather{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+#todo-list{
+    background-color: rgba(0, 0, 0, 0.2);
+    position:absolute;
+    bottom:5%;
+    width:300px;
+    height:22%;
+    margin-top: 40px;
+    list-style: none;
+    padding:30px;
+    border-radius: 3%;
+    overflow: auto;
+}
+#todo-list li{
+    width:250px;
+    margin:0;
+    margin-bottom: 8px;
+}
+#todo-list button{
+    position: absolute;
+    right:30px;
+    color:white;
+
+
+}
